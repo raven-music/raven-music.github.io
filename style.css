@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Open Sans', sans-serif;}
+body, html {
+  height: 100%;
+  color: rgb(90, 90, 90);
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('raven.png');
+  min-height: 100%;
+  opacity: 0.8;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("/raven5-2.png");
+  min-height: 600px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/raven5-2.png");
+  min-height: 600px; /*was eerst 400px*/
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+.navbar{
+    color: white;
+    background-color: rgb(224, 192, 255);
+}
+
+.footer{
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  background-color: rgb(87, 79, 95);
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+#home-text{
+    opacity: 1;
+}
+
+#portfolio{
+ 
+}
+
+.portje{
+  padding-top: 225px;
+  padding-bottom: 225px;
+}
+
+.video{
+  border: 10px;
+  border-color: #777;
+  border-style: solid;
+}
+
+.quote{
+  padding-top: 400px;
+
+}
