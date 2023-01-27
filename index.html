@@ -29,8 +29,12 @@
         </div>
 
         <!-- Navbar on small screens -->
-        <div id="navDemo" class="w3-bar-block w3-light-purple w3-hide w3-hide-large w3-hide-medium">
-            <a href="#" class="w3-bar-item w3-button"onclick="toggleFunction()" id="home-button-mobile">HOME</a>
+        <div id="navDemo" class="w3-bar-block w3-light-purple w3-hide w3-hide-large w3-hide-medium sticky"id="home-button-mobile">
+            <a class=" w3-button w3-hover-light-purple w3-hide-medium w3-hide-large w3-right"
+                    href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                    <i class="fa fa-bars"></i>
+                </a>
+            <a href="#" class="w3-bar-item w3-button"onclick="toggleFunction()" >HOME</a>
             <a href="#about"    class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
             <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     
@@ -59,7 +63,7 @@
         <div class="w3-row">
             <div class="w3-col m6 w3-center w3-padding-large">
                 <p><b><i class="fa fa-user w3-margin-right"></i>Raven</b></p><br>
-                <img src="raven-portret.png" class="w3-round w3-image "
+                <img src="/images/raven-portret.png" class="w3-round w3-image "
                     alt="Photo of Me" >
             </div>
 

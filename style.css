@@ -17,20 +17,20 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('raven.png');
+  background-image: url('/images/raven.png');
   min-height: 100%;
   opacity: 0.8;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("/raven5-2.png");
+  background-image: url("/images/raven5-2.png");
   min-height: 600px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("/raven5-2.png");
+  background-image: url("/images/raven5-2.png");
   min-height: 600px; /*was eerst 400px*/
 }
 
@@ -63,8 +63,16 @@ body, html {
     opacity: 1;
 }
 
-#portfolio{
- 
+#home-button-mobile{
+  /* position: absolute; */
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  /* padding-top: 10%; */
+  width: 100%;
+  z-index: 2;
 }
 
 .portje{
