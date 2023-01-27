@@ -18,7 +18,7 @@
     <div class="navbar">
         <div class="w3-top">
             <div class="w3-bar" id="myNavbar">
-                <a class="w3-bar-item w3-button  w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                <a class="w3-bar-item w3-button  w3-hover-light-purple w3-hide-medium w3-hide-large w3-right"
                     href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
                     <i class="fa fa-bars"></i>
                 </a>
@@ -29,7 +29,7 @@
         </div>
 
         <!-- Navbar on small screens -->
-        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <div id="navDemo" class="w3-bar-block w3-light-purple w3-hide w3-hide-large w3-hide-medium">
             <a href="#" class="w3-bar-item w3-button"onclick="toggleFunction()" id="home-button-mobile">HOME</a>
             <a href="#about"    class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
             <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
@@ -74,7 +74,7 @@
                     xxxxxxxx xxxx xxxxxx x xxxxxx xx xxxxx x x xxxxxxxxx xxxxxx x"</p>
             </div>
         </div>
-        <p class="w3-large w3-center w3-padding-16">My skills are</p>
+        <p class="w3-large w3-center w3-padding-16">My services:</p>
         <p class="w3-wide"><i class="fa fa-camera"></i>Music Production</p>
         <div class="w3-light-grey">
             <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
@@ -171,9 +171,9 @@
         function myFunction() {
             var navbar = document.getElementById("myNavbar");
             if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-light-purple";
             } else {
-                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-light-purple", "");
             }
         }
 
