@@ -27,12 +27,14 @@ body, html {
 .bgimg-2 {
   background-image: url("/images/raven5.png");
   min-height: 600px;
+  width: 100%;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("/images/raven5.png");
+  background-image: url("/images/raven3.png");
   min-height: 600px; /*was eerst 400px*/
+  width: 100%;
 }
 
 .w3-wide {letter-spacing: 10px;}
@@ -75,15 +77,21 @@ body, html {
   padding-bottom: 225px;
 }
 
-.video{
-  border: 10px;
-  border-color: #777;
-  border-style: solid;
-}
-
 .quote{
   padding-top: 400px;
 
+}
+
+ .video-gallery{
+  justify-content: center;
+  max-width: 60%;
+
+} 
+
+.video{
+  border-style: none;
+  justify-content: center;
+  
 }
 
 /* Turn off parallax scrolling for tablets and phones */
